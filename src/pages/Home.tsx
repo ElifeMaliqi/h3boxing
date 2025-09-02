@@ -72,7 +72,7 @@ const Home = () => {
             style={{
               backgroundImage: 'url("/Ramadan vs Shamil.jpg")',
               backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundPosition: 'center top',
               backgroundRepeat: 'no-repeat'
             }}
           ></div>
