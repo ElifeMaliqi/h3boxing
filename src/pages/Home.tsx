@@ -76,7 +76,7 @@ const Home = () => {
                 url("/Ramadan vs Shamil.jpg")
               `,
               backgroundSize: '50px 50px, 50px 50px, cover',
-              backgroundPosition: 'center',
+              backgroundPosition: 'center 100px',
             }}
           ></div>
           {/* Animated Scan Lines */}
