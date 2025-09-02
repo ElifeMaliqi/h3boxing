@@ -103,7 +103,7 @@ const Galerie = () => {
   };
 
   return (
-    <div className="pt-24 relative overflow-hidden">
+    <div className="pt-16 relative overflow-hidden">
       {/* Video Modal */}
       {selectedVideo && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-sm">

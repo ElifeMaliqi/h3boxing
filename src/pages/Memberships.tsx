@@ -141,7 +141,7 @@ const Memberships = () => {
   ];
 
   return (
-    <div className="pt-24 relative overflow-hidden">
+    <div className="pt-16 relative overflow-hidden">
       {/* Animated Circuit Background */}
       <div className="fixed inset-0 pointer-events-none opacity-10">
         <div className="absolute inset-0" style={{
