@@ -1,18 +1,38 @@
-import React from 'react'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Memberships from './pages/Memberships';
+import Galerie from './pages/Galerie';
+import Contact from './pages/Contact';
+import Datenschutz from './pages/Datenschutz';
+import AGB from './pages/AGB';
+import ScrollToTop from './components/ScrollToTop';
+
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          H3 Boxing Futuristic Website
-        </h1>
-        <p className="text-lg text-gray-600">
-          Welcome to the future of boxing
-        </p>
+    <Router>
+      <div className="min-h-screen bg-black text-white">
+        <ScrollToTop />
+        <Navigation />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/memberships" element={<Memberships />} />
+            <Route path="/galerie" element={<Galerie />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/datenschutz" element={<Datenschutz />} />
+            <Route path="/agb" element={<AGB />} />
+          </Routes>
+        </main>
+        <Footer />
       </div>
-    </div>
-  )
+    </Router>
+  );
 }
 
-export default App
+export default App;
