@@ -73,7 +73,7 @@ const Home = () => {
               backgroundImage: `
                 linear-gradient(rgba(220, 38, 38, 0.1) 1px, transparent 1px),
                 linear-gradient(90deg, rgba(220, 38, 38, 0.1) 1px, transparent 1px),
-                url("https://images.pexels.com/photos/260447/pexels-photo-260447.jpeg?auto=compress&cs=tinysrgb&w=1600")
+                url("/Ramadan vs Shamil.jpg")
               `,
               backgroundSize: '50px 50px, 50px 50px, cover',
               backgroundPosition: 'center',
