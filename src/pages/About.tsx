@@ -28,7 +28,7 @@ const About = () => {
         <div 
           className="absolute inset-0 opacity-15"
           style={{
-            backgroundImage: 'url("/Ramadan.jpeg")',
+            backgroundImage: 'url("/Screenshot 2025-09-01 155437.png")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
