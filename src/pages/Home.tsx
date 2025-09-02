@@ -53,7 +53,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="pt-16 relative overflow-hidden">
+    <div className="pt-24 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="fixed inset-0 pointer-events-none">
         <div className="absolute top-20 left-10 w-2 h-2 bg-red-500 rounded-full animate-pulse opacity-60"></div>
