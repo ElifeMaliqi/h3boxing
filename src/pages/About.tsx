@@ -171,7 +171,7 @@ Dabei steht die Gemeinschaft immer im Mittelpunkt.
             <div className="relative group">
               <div className="relative rounded-2xl overflow-hidden transform group-hover:scale-105 transition-transform duration-500">
                 <img
-                  src="/images/Kim Hiseni.JPG"
+                  src="/Kim Hiseni.JPG"
                   alt="Kim Hiseni - H3 Boxing"
                   className="w-full h-96 object-cover object-top"
                 />
