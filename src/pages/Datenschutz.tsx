@@ -113,7 +113,7 @@ const Datenschutz = () => {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
+      <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black"></div>
         <div 
           className="absolute inset-0 opacity-20"
