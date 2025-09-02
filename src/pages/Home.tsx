@@ -70,13 +70,21 @@ const Home = () => {
           <div 
             className="absolute inset-0 opacity-20"
             style={{
+              backgroundImage: 'url("/Ramadan vs Shamil.jpg")',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat'
+            }}
+          ></div>
+          {/* Grid Overlay */}
+          <div 
+            className="absolute inset-0 opacity-10"
+            style={{
               backgroundImage: `
                 linear-gradient(rgba(220, 38, 38, 0.1) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(220, 38, 38, 0.1) 1px, transparent 1px),
-                url("/Ramadan vs Shamil.jpg")
+                linear-gradient(90deg, rgba(220, 38, 38, 0.1) 1px, transparent 1px)
               `,
-              backgroundSize: '50px 50px, 50px 50px, cover',
-              backgroundPosition: 'center 100px',
+              backgroundSize: '50px 50px'
             }}
           ></div>
           {/* Animated Scan Lines */}
