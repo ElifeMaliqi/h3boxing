@@ -161,7 +161,7 @@ const Memberships = () => {
         <div 
           className="absolute inset-0 opacity-20"
           style={{
-            backgroundImage: 'url("/images/IMG_0155 (1).JPG")',
+            backgroundImage: 'url("/1FDBA8B8-EDF8-441F-BBA4-4B59E37E6814.JPG")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

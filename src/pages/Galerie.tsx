@@ -158,7 +158,7 @@ const Galerie = () => {
         <div 
           className="absolute inset-0 opacity-20"
           style={{
-            backgroundImage: 'url("/images/IMG_0155 (1).JPG")',
+            backgroundImage: 'url("/IMG_0155 (1).JPG")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

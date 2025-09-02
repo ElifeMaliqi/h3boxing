@@ -69,7 +69,7 @@ const Contact = () => {
         <div 
           className="absolute inset-0 opacity-15"
           style={{
-            backgroundImage: 'url("/images/WhatsApp Image 2025-07-21 at 21.23.36.jpeg")',
+            backgroundImage: 'url("/WhatsApp Image 2025-07-21 at 21.23.36.jpeg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center -30px',
           }}
