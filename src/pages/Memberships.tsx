@@ -163,7 +163,7 @@ const Memberships = () => {
           style={{
             backgroundImage: 'url("/1FDBA8B8-EDF8-441F-BBA4-4B59E37E6814.JPG")',
             backgroundSize: 'cover',
-            backgroundPosition: 'center',
+            backgroundPosition: 'center top',
           }}
         ></div>
         
